@@ -1,0 +1,1043 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white
+}
+
+.navbar {
+    /* background-color:rgba(2, 65, 65, 0.1); */
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-img {
+    height: 65px;
+    width: auto;
+    display: block;
+}
+
+.nav-label {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    transform: 100 0.3s;
+
+}
+
+.nav-label:hover {
+
+    color: blue;
+    text-decoration: underline;
+
+}
+
+/* Home page start section 1 */
+/* .home-page{
+ padding:80px 0 180px 0;
+} */
+
+.bg-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+.bg-img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.3), rgba(0, 0, 0, 0.5))
+}
+
+.text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 4.8rem;
+    color: white;
+    z-index: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-p {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    z-index: 2;
+    font-size: 1.5rem;
+    /* padding:10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-btn {
+    padding: 10px 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    margin-top: 10px;
+    z-index: 2;
+    font-weight: 500;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.home-btn:hover {
+    background: #1e88e5;
+    color: white;
+}
+
+/* Home page start section 2*/
+.heading {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.course-section {
+    padding: 40px 0;
+    background: #f5f5f5;
+}
+
+.container {
+    margin: 0px 80px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgba(236, 10, 10);
+
+}
+
+.card i {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0000ff;
+
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #0000ff;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1rem;
+    text-align: center;
+    color: gray;
+    line-height: 25px;
+}
+
+progress {
+    width: 50%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* Home page start section 3*/
+.home-section {
+    background: linear-gradient(180deg, #0000ff 50%, white 50%);
+    height: 80vh;
+
+}
+
+.card1 {
+    width: 350px;
+    height: 50vh;
+    /* background-color: #0000ff; */
+    border-radius: 15px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+    border: 1px solid black;
+    box-shadow: 0 0 30px rgb(14, 13, 13);
+}
+
+.home-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    font-family: serif;
+}
+
+.home-section h5 {
+    text-align: center;
+    color: #eee;
+    font-family: serif;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.home-section h1:hover,
+.home-section h5:hover {
+    color: aqua;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+}
+
+.crd-title1 {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.title-p {
+    color: black;
+    line-height: 1.7;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Home page start section 4*/
+.home-section1 {
+    background: white;
+}
+
+.slider-img {
+    height: 80vh;
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+/* foote section */
+
+.footer {
+    background-color: black;
+    display: flex;
+
+}
+
+.footer-card {
+    width: 250px;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.footer-card h2 {
+    color: #aaa;
+}
+
+.footer-card p {
+    color: #aaa;
+}
+
+.footer-card ul,
+li {
+    color: #aaa;
+}
+
+.bootom {
+    text-align: center;
+    color: #aaa;
+    margin-top: 40px;
+}
+
+hr {
+    margin: 50px 0 20px;
+    border-color: #444;
+}
+
+/* Reg form start */
+
+section {
+    padding: 70px 0px;
+}
+
+.reg-container {
+    margin: 80px 90px;
+}
+
+.heading {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.heading i {
+    color: #1e88e5;
+}
+
+.reg-main {
+    background: rgb(252, 251, 251);
+    width: 50%;
+    /* height: 100vh; */
+    margin: auto;
+    border-radius: 10px;
+    /* box-shadow: x-axis y-axis blur color; */
+    box-shadow: 0px 0px 10px black;
+    padding: 20px;
+}
+
+.reg-form {
+    padding: 10px;
+
+}
+
+::placeholder {
+    padding: 20px;
+    color: gray;
+    font-size: 1rem;
+
+}
+
+.row-form {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.date-control {
+    width: 96%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid gray;
+    color: gray;
+}
+
+.sub-btn {
+    width: 96%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    /* border:2px solid gray; */
+    background: rgb(3, 3, 247, 0.5);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+/* city page start */
+.ul-style {
+    list-style: none;
+    margin-top: 5px;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.li-style {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    text-align: center;
+}
+
+.form-control1 {
+    width: 100%;
+    flex-direction: column;
+    margin: 10px;
+    color: black;
+}
+
+/* otp page start */
+.otp-page {
+    background: url('../components/img/studentbg.jpeg') center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 90px;
+}
+
+.right {
+    width: 30%;
+    height: 50vh;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+.right p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+/* student page */
+.student-page {
+    background: url('../img/studentbg.jpeg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    margin-top: 80px;
+}
+
+.container-drop {
+    margin-top: 10%;
+}
+
+.upload-p {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.img-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    background-color: #0000ff;
+}
+
+.file-img {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.student-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cancel-btn {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color: red;
+    backdrop-filter: blur(10px);
+    background: white;
+    cursor: pointer;
+}
+
+.text-form {
+    width: 45%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.text-form h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.qua-form {
+    margin: 10px;
+}
+
+.que-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.subbtn {
+    width: 20%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.subbtn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* admin page */
+.admin-page {
+    /* background-color: #0000ff; */
+    margin-top: 100px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    /* background-color: #444; */
+}
+
+.admin-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* border-radius: 40px; */
+}
+
+.right-side {
+    width: 50%;
+    /* background-color:rgb(43, 147, 243,0.4); */
+    background-color: white;
+    /* margin-top: 40px;
+    margin-left: 20px; */
+}
+
+.right-side h1 {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.right-card {
+    padding: 60px;
+    /* background-color:white; */
+    height: 100vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* margin-top:50px; */
+    /* margin-left:50px; */
+    /* border-radius:20px; */
+    width: 80%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.right-card p {
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.right-card h5 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* .admin-form{
+    background-color: #0000ff;
+} */
+.admin-control {
+    width: 95%;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.admin-btn {
+    /* margin: 10px; */
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid gray;
+    margin: auto;
+    display: block;
+    background-color: #1e88e5;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.admin-btn:hover {
+    background: blueviolet;
+    color: black;
+}
+
+/* faculty page */
+.faculty-page {
+    background: url('../img/facultyimg.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content:center;
+    align-items:center; */
+    /* padding:40px 0; */
+    margin-top: 80px;
+}
+
+.faculty-card {
+    width: 40%;
+    height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+.faculty-logo {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+
+}
+
+.faculty-card h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* margin:5px 0; */
+
+}
+
+.faculty-card h5 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    /* margin:0; */
+}
+
+/* login page start */
+.login-page {
+    background: url('../img/loginimg.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    margin-top: 80px;
+}
+
+.login-card {
+    width: 35%;
+    /* background-color: rgb(255, 255, 255,0.4); */
+    height: 70vh;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.login-card h1 {
+    text-align: center;
+    color: #1e88e5;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.login-card h5 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e88e5;
+    padding: 10px;
+}
+
+/* icons */
+.social-icons {
+    width: 60%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: auto;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.google {
+    background: black;
+}
+
+.insta {
+    background: black;
+}
+
+.facebook {
+    background: black;
+}
+
+.twitter {
+    background: #000;
+}
+
+/* student details */
+.student-table {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    /* background:#f5f5f5; */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background: #6c63ff;
+    color: white;
+}
+
+.table th {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.table button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.table button:first-child {
+    background: #28a745;
+    color: white;
+}
+
+.table button:last-child {
+    background: #dc3545;
+    color: white;
+}
+
+.pro-img {
+    width: 70px;
+    height: 70px;
+
+}
+
+/* profile page */
+.dashboard-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.profile-card {
+    position: relative;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.form-text {
+    /* background-color: #000; */
+    display: flex;
+    flex-direction: column;
+    /* padding:20px; */
+
+}
+
+.form-text label {
+    margin-left: 40px;
+}
+
+.profile-card h3 {
+
+    font-size: 1rem;
+    margin: 10px;
+
+}
+
+.profile-form {
+    /* padding:30px; */
+    width: 80%;
+    padding: 10px;
+    /* margin: 20px; */
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: auto;
+
+}
+
+.profile-img {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    right: 0;
+}
+
+.profile-btn {
+    position: absolute;
+    width: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    /* background-color: blue; */
+    /* padding: 10px; */
+    top: 100px;
+    right: 40%;
+
+}
+
+.profile-btns button:first-child {
+    position: absolute;
+    /* background-color:green; */
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    top: 5px;
+    right: 10px;
+}
+
+.profile-btns button:last-child {
+    position: absolute;
+    /* background-color: #dc3545; */
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    top: 5px;
+    right: 70px;
+
+}
+
+/* subject card */
+
+.sub-card {
+    width:250px;
+    background-color: rgb(67, 67, 238, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 2s;
+}
+.sub-card:hover{
+    transform:scale(1.1,1.1);
+}
+.sub-card p{
+    margin: 10px;
+    font-size:1rem;
+    color:black;
+    color: white;
+}
+
+.present {
+    color: green !important;
+    font-weight: bold;
+}
+
+.absent {
+    color: red !important;
+    font-weight: bold;
+}
+
+/* attendence page */
+.profile-card1 {
+    position: relative;
+    width:55%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin: auto;
+    height: 100vh;
+}
+
+.profile-card1 h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-group {
+    gap: 30px;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-group select {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
+
+.btn-group input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.btn-group button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+    background-color: #0000ff;
+    color: white;
+}
+
+.save-btn {
+    position: absolute;
+    top: 90%;
+    right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+    background-color: #0000ff;
+    color: white;
+}
+
+.table td input[type="radio"]:first-child {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: 0px 10px;
+    accent-color: #28a745;
+}
+
+.table td input[type="radio"]:last-child {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: 0px 10px;
+    accent-color: red;
+}

@@ -1,0 +1,514 @@
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-img {
+    height: 50px;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-label {
+    font-size: 0.9rem;
+  }
+
+}
+
+/* home section start */
+@media (max-width: 480px) {
+
+  .text {
+    font-size: 1.8rem;
+    top: 22%;
+  }
+
+  .text-p {
+    font-size: 0.9rem;
+    top: 42%;
+  }
+
+  .home-btn {
+    top: 58%;
+    font-size: 0.85rem;
+    padding: 10px 16px;
+  }
+}
+@media (max-width: 768px) {
+
+  .bg-img {
+    height: 100vh;
+    margin-top:40%;
+  }
+
+  .bg-img img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .text {
+    top: 25%;
+    left: 5%;
+    font-size: 2.2rem;
+    width: 90%;
+  }
+
+  .text-p {
+    top: 48%;
+    left: 5%;
+    font-size: 1rem;
+    width: 90%;
+    line-height: 1.5;
+  }
+
+  .home-btn {
+    top: 65%;
+    left: 5%;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+}
+/* 
+home section 2 */
+@media (max-width: 480px) {
+
+  .heading {
+    font-size: 1.7rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card i {
+    font-size: 1.8rem;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  progress {
+    width: 100%;
+  }
+}
+/* 
+section 3 */
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+    .home-section {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .home-section h1 {
+        font-size: 28px;
+    }
+
+    .home-section h5 {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .card1 {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .card-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .slider-img {
+        height: 40vh;
+    }
+}
+
+/* footer section */
+
+@media (max-width: 768px) {
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .footer-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-card ul {
+        padding: 0;
+    }
+
+    .footer-card li {
+        list-style: none;
+        margin: 5px 0;
+    }
+
+    .bootom {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    hr {
+        margin: 30px 10px 10px;
+    }
+}
+
+/* reg page */
+@media (max-width: 768px) {
+
+    .reg-container {
+        margin-top:90px;
+        padding:20px 10px;
+        /* margin: 30px 15px; */
+    }
+
+    .reg-main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .row-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .date-control {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .sub-btn {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+}
+/* otp page */
+@media (max-width: 768px) {
+
+    .otp-page {
+        height: 100vh;
+        margin-top: 60px;
+        background-position: center;
+        padding: 10px;
+    }
+
+    .right {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin: auto;
+        border-radius: 12px;
+    }
+
+    .right p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+/* 
+student page */
+@media (max-width: 768px) {
+
+    .student-page {
+        flex-direction: column;
+        padding: 20px 10px;
+        margin-top: 60px;
+        height: auto;
+    }
+
+    .container-drop {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .text-form {
+        width: 95%;
+        padding: 15px;
+        margin: auto;
+    }
+
+    .file-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .student-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .cancel-btn {
+        width: 25px;
+        height: 25px;
+        top: 5%;
+        right: 5%;
+    }
+
+    .subbtn {
+        width: 100%;
+    }
+
+    .upload-p {
+        font-size: 14px;
+    }
+
+    .que-control {
+        padding: 10px;
+    }
+}
+/* admin login */
+
+@media (max-width: 768px) {
+
+    .admin-page {
+        flex-direction: column;
+        margin-top:80px;
+    }
+
+    .left {
+        width: 100%;
+        height: auto;
+    }
+
+    .admin-img {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+        margin-left: auto;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .right-card {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .admin-control {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .admin-btn {
+        width: 100%;
+    }
+
+    .right-side h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+/* faculaty */
+
+@media (max-width: 768px) {
+
+    .faculty-page {
+        flex-direction: column;
+        margin-top:40%;
+        padding: 20px 10px;
+    }
+
+    .faculty-card {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .faculty-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .faculty-card h2 {
+        font-size: 1.3rem;
+    }
+
+    .faculty-card h5 {
+        font-size: 0.9rem;
+    }
+}
+/* login student */
+@media (max-width: 768px) {
+
+    .login-page {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:40%;
+        padding: 20px;
+    }
+
+    .login-card {
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .social-icons {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .login-card h1 {
+        font-size: 1.5rem;
+    }
+
+    .login-card h5 {
+        font-size: 0.9rem;
+    }
+}
+
+/* student details */
+@media (max-width: 768px) {
+
+    .student-table {
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .table {
+        min-width: 600px;
+        font-size: 14px;
+    }
+
+    .table th,
+    .table td {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .pro-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .table button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+/* profile page */
+@media (max-width: 768px) {
+
+    .dashboard-container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+        margin-top:100px;
+    }
+
+    .profile-card,
+    .profile-card1 {
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+
+    .profile-card {
+        padding-bottom: 20px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile-form {
+        width: 90%;
+    }
+
+    .form-text label {
+        margin-left: 10px;
+    }
+
+    .profile-btn,
+    .profile-btns button {
+        position: static;
+        margin: 10px 5px;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-group select,
+    .btn-group input,
+    .btn-group button {
+        width: 100%;
+    }
+
+    .sub-card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .save-btn {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .table td input[type="radio"] {
+        width: 16px;
+        height: 16px;
+    }
+}
