@@ -1,16 +1,117 @@
-# React + Vite
+# Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Student Management System developed using React.js, Node.js, Express.js, and MySQL. The system provides secure authentication and role-based access for Admin, Faculty, and Students.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Authentication & Authorization
+- User Login & Registration
+- JWT Authentication
+- Role-Based Access Control
+- Secure Password Encryption
 
-## React Compiler
+### Admin Module
+- Manage Students
+- Manage Faculty
+- View All Records
+- Control User Access
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Faculty Module
+- View Assigned Students
+- Add Student Marks
+- Update Student Academic Records
 
-## Expanding the ESLint configuration
+### Student Module
+- Login to Personal Dashboard
+- View Profile Information
+- View Marks and Academic Performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Stack
+
+### Frontend
+- React.js
+- Bootstrap
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MySQL
+
+### Authentication
+- JWT (JSON Web Token)
+- Bcrypt
+
+## Project Structure
+
+```
+student-management/
+│
+├── myapp/          # React Frontend
+├── backend/        # Node.js Backend
+├── README.md
+└── .gitignore
+```
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/rukmai-bhajantri/student-management.git
+```
+
+### Install Frontend Dependencies
+
+```bash
+cd myapp
+npm install
+```
+
+### Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+### Configure Environment Variables
+
+Create `.env` file inside backend folder:
+
+```env
+PORT=5000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=student_management
+JWT_SECRET=your_secret_key
+```
+
+### Run Backend
+
+```bash
+cd backend
+npm start
+```
+
+### Run Frontend
+
+```bash
+cd myapp
+npm run dev
+```
+
+## Future Enhancements
+
+- Attendance Management
+- Result Analytics
+- Notifications System
+- File Upload Support
+- Report Generation
+
+## Author
+
+**Rukmai Bhajantri**
