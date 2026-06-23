@@ -1,11 +1,8 @@
 node_modules/
-.env
-
 backend/node_modules/
-backend/.env
 
-myapp/node_modules/
+.env
+backend/.env
 myapp/.env
 
 myapp/dist/
-backend/uploads/
