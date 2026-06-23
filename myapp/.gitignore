@@ -1,6 +1,6 @@
-node_modules/
-backend/node_modules/
-myapp/node_modules/
 .env
 backend/.env
 myapp/.env
+node_modules/
+backend/node_modules/
+myapp/node_modules/
